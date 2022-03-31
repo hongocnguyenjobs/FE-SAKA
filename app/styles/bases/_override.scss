@@ -1,0 +1,31 @@
+.form-control:focus {
+	border-color: #FCAF17;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+.m-dropdown {
+	&__style1 {
+		button {
+			height: 71px;
+			width: 100%;
+			font-size: 18px;
+    		color: #FFFFFF;
+    		background-color: #FCAF17;
+    		border: 0;
+    		border-radius: 4px;
+			&::after {
+				display: none;
+			}
+		}
+		.dropdown-menu {
+			width: 100%;
+		}
+		.dropdown-item {
+			&:hover {
+				background-color: #FCAF17;
+				color: #FFFFFF;
+			}
+		}
+	}
+}

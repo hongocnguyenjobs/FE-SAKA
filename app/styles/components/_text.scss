@@ -1,0 +1,159 @@
+.m-text {
+	&__title {
+		font-size: 50px;
+		color: #F68B1F;
+		line-height: 60px;
+		&--white {
+			@extend .m-text__title;
+			font-weight: 400;
+			color: #FFFFFF;
+		}
+		
+	}
+	&__title2 {
+		font-size: 24px;
+		color: #2D2D2D;
+		line-height: 20px;
+	}
+	&__title3 {
+		font-size: 15px;
+		color: #F68B1F;
+		line-height: 20px;
+	}
+	&__title4 {
+		font-size: 30px;
+		color: #F68B1F;
+		line-height: 40px;
+	}
+	&__title5 {
+		font-size: 64px;
+		color: #F68B1F;
+		line-height: 70px;
+		&--white {
+			@extend .m-text__title5;
+			color: #FFFFFF;
+		}
+	}
+	&__title6 {
+		font-size: 18px;
+		color: #F68B1F;
+	}
+	&__title7 {
+		font-size: 40px;
+		color: #FFFFFF;
+		font-weight: 400;
+	}
+	&__content1 {
+		font-size: 18px;
+		color: #2D2D2D;
+		line-height: 30px;
+		&--yellow {
+			@extend .m-text__content1;
+			color: #FFD400;
+		}
+	}
+	&__content2 {
+		font-size: 14px;
+		color: #2D2D2D;
+		line-height: 23px;
+	}
+	&__content3 {
+		font-size: 15px;
+		color: #000000;
+		line-height: 20px;
+	}
+	&__content4 {
+		font-size: 13px;
+		color: #2D2D2D;
+		line-height: 32px;
+	}
+	&__content5 {
+		font-size: 15px;
+		color: #2D2D2D;
+		line-height: 24px;
+	}
+	&__content6 {
+		font-size: 20px;
+		color: #2D2D2D;
+	}
+	&__content7 {
+		font-size: 30px;
+		color: #FFFFFF;
+	}
+	&__content8 {
+		font-size: 15px;
+		color: #FFFFFF;
+	}
+	&__content9 {
+		font-size: 14px;
+		color: #6A6A6A;
+		line-height: 32px;
+	}
+	&__price1 {
+		font-size: 26px;
+		color: #F68B1F;
+		line-height: 20px;
+		font-weight: 400;
+	}
+	&__price2 {
+		font-size: 13px;
+		color: #2D2D2D;
+		line-height: 32px;
+		opacity: 0.8;
+	}
+	&__footer1 {
+		font-size: 20px;
+		color: #FFFFFF;
+	}
+	&__banner {
+		font-size: 64px;
+		color: #FFFFFF;
+		z-index: 999;
+	}
+	&__link1 {
+		font-size: 15px;
+		color: #FCAF17;
+		text-decoration: underline;
+		&:hover {
+			text-decoraton: none;
+			color: #FCAF17;
+		}
+	}
+	&__link2 {
+		font-size: 18px;
+		color: #FCAF17;
+		text-decoration: underline;
+		&:hover {
+			text-decoraton: none;
+			color: #FCAF17;
+		}
+	}
+	&__link3 {
+		font-size: 18px;
+		color: #FFFFFF;
+		font-weight: 400;
+		text-decoration: underline;
+		&:hover {
+			text-decoraton: none;
+			color: #FFFFFF;
+		}
+	}
+}
+@media only screen and (max-width: 767px) {
+	.m-text__title5--white {
+		font-size: 28px;
+	}
+}
+@media only screen and (max-width: 575px) {
+    .m-text {
+    	&__title5 {
+			font-size: 28px;
+			color: #F68B1F;
+			line-height: 29px;
+		}
+    }
+    .m-text__title5--white {
+		color: #FFFFFF;
+	}
+    
+}

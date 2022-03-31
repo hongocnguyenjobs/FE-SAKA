@@ -1,0 +1,151 @@
+@include('../partials/head.html')
+<div class="wrapper">
+    @include('../partials/header.html')
+    <main class="h-100 mb-3 mt-5 mt-md-0">
+        <!-- * -->
+        <section class="hakusivu-laaja__loyda-sinulle-sopiva-auto">
+            <p class="m-text__title5 text-center">Löydä sinulle sopiva auto</p>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-sm-6 col-lg-4 mb-1 mb-sm-3">
+                        <select>
+                            <option value="0">Tyyppi</option>
+                            <option value="1">2</option>
+                            <option value="2">3</option>
+                            <option value="3">4</option>
+                            <option value="4">5</option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 mb-1 mb-sm-3">
+                        <select>
+                            <option value="0">Merkki</option>
+                            <option value="1">2</option>
+                            <option value="2">3</option>
+                            <option value="3">4</option>
+                            <option value="4">5</option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 mb-1 mb-sm-3">
+                        <select>
+                            <option value="0">Korimalli</option>
+                            <option value="1">2</option>
+                            <option value="2">3</option>
+                            <option value="3">4</option>
+                            <option value="4">5</option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 mb-1 mb-sm-3">
+                        <select>
+                            <option value="0">Polttoaine</option>
+                            <option value="1">2</option>
+                            <option value="2">3</option>
+                            <option value="3">4</option>
+                            <option value="4">5</option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 mb-1 mb-sm-3">
+                        <select>
+                            <option value="0">Vaihteisto</option>
+                            <option value="1">2</option>
+                            <option value="2">3</option>
+                            <option value="3">4</option>
+                            <option value="4">5</option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 mb-1 mb-sm-3">
+                        <select>
+                            <option value="0">Vuosimalli alk.</option>
+                            <option value="1">2</option>
+                            <option value="2">3</option>
+                            <option value="3">4</option>
+                            <option value="4">5</option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 mb-1 mb-sm-3">
+                        <select>
+                            <option value="0">Vaihteisto</option>
+                            <option value="1">2</option>
+                            <option value="2">3</option>
+                            <option value="3">4</option>
+                            <option value="4">5</option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 mb-1 mb-sm-3">
+                        <select>
+                            <option value="0">Vuosimalli alk.</option>
+                            <option value="1">2</option>
+                            <option value="2">3</option>
+                            <option value="3">4</option>
+                            <option value="4">5</option>
+                        </select>
+                    </div>
+                </div>
+                <!-- * -->
+                <p class="m-text__title6 text-center">Hinta</p>
+                <div class="row justify-content-center mb-2">
+                    <div class="col-12 col-sm-6 col-lg-3 mb-1 mb-sm-3">
+                        <select>
+                            <option value="0">Minimi</option>
+                            <option value="1">2</option>
+                            <option value="2">3</option>
+                            <option value="3">4</option>
+                            <option value="4">5</option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 mb-1 mb-sm-3">
+                        <select>
+                            <option value="0">Maksimi</option>
+                            <option value="1">2</option>
+                            <option value="2">3</option>
+                            <option value="3">4</option>
+                            <option value="4">5</option>
+                        </select>
+                    </div>
+                </div>
+                <!-- * -->
+                <p class="m-text__title6 text-center">Järjestys</p>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <select>
+                            <option value="0">Minimi</option>
+                            <option value="1">2</option>
+                            <option value="2">3</option>
+                            <option value="3">4</option>
+                            <option value="4">5</option>
+                        </select>
+                        <label class="m-checkbox__style2 mt-2">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                            <span class="m-text__content5">6+ paikkainen</span>
+                        </label>
+                        <label class="m-checkbox__style2">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                            <span class="m-text__content5">Neliveto</span>
+                        </label>
+                        <label class="m-checkbox__style2">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                            <span class="m-text__content5">ALV-vähennyskelpoinen</span>
+                        </label>
+                        <div class="text-center mt-3 mb-4">
+                            <a href="" class="m-btn m-btn-orange2 py-4 px-5">Hae</a>
+                        </div>
+                        <div class="text-center mb-5">
+                            <a href="" class="m-text__link2">Tyhjennä haku</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- * -->
+            </div>
+        </section>
+        <!-- * -->
+        @include('../components/viimeksi-lisatyt-autot.html')
+        @include('../components/soita-ja-kysy-lisaa.html') 
+        @include('../components/banner.html')
+         
+        @include('../components/toimipisteet-ja-yhteystiedot.html')
+    </main>
+    @include('../partials/footer.html')
+</div>
+@include('../partials/foot.html')

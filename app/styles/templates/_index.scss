@@ -1,0 +1,132 @@
+.index {
+    &__avatar--info {
+        width: 236px;
+        height: 236px;
+    }
+    &__images-gallery {
+        width: 100%;
+        height: 187px;
+        display: block !important;
+    }
+}
+
+.index__owl-carousel {
+    position: relative;
+    .item {
+        height: 597px;
+        position: relative;
+    }
+    .owl-prev {
+        position: absolute;
+        top: 45%;
+        left: 15%;
+    }
+    .owl-next {
+        position: absolute;
+        top: 45%;
+        right: 15%;
+    }
+    .owl-prev:hover,
+    .owl-next:hover {
+        background-color: transparent !important;
+    }
+    .owl-item {
+        .item::after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: #000000;
+            opacity: 0.4;
+            content: "";
+        }
+    }
+    .owl-item.active {
+        .item::after {
+            opacity: 0;
+        }
+    }
+    .owl-dots {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        .owl-dot span {
+            background: #FFFFFF;
+        }
+        .owl-dot.active span {
+            background: #FFD400;
+        }
+    }
+}
+
+.index__owl-carousel--people-info {
+    position: relative;
+    .owl-prev {
+        position: absolute;
+        top: 28%;
+        left: 10%;
+    }
+    .owl-next {
+        position: absolute;
+        top: 28%;
+        right: 10%;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .index__owl-carousel {
+        .owl-prev {
+            left: 11%;
+        }
+        .owl-next {
+            right: 11%;
+        }
+    }
+    .index__owl-carousel--people-info {
+        .owl-prev {
+            left: 0;
+        }
+        .owl-next {
+            right: 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .index__owl-carousel {
+        .owl-prev {
+            left: 7%;
+        }
+        .owl-next {
+            right: 7%;
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .index__owl-carousel {
+        .owl-dots {
+            top: 20px;
+        }
+    }
+    .index__owl-carousel--people-info {
+        .owl-prev {
+            left: -7%;
+        }
+        .owl-next {
+            right: -7%;
+        }
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .index__owl-carousel--people-info {
+        .owl-prev {
+            left: 5%;
+        }
+        .owl-next {
+            right: 5%;
+        }
+    }
+}

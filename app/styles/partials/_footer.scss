@@ -1,0 +1,40 @@
+.footer {
+	background: #FCAF17;
+    &__text {
+    	font-size: 15px;
+		color: #9FAFBE;
+    }
+    &__search {
+    	input {
+    		background-color: #FCAF17;
+			border: 3px solid #FFFFFF;
+			color: #FFFFFF !important;
+			font-size: 13px;
+			border-radius: 0 !important;
+			&::placeholder {
+				color: #FFFFFF;
+			}
+			&:focus {
+				background-color: #FCAF17;
+				border: 3px solid #FFFFFF;
+			}
+    	}
+    	button {
+    		padding: .375rem 2.75rem;
+    		border: 0;
+			background-color: #FFFFFF;
+			font-size: 18px;
+			color: #F68B1F;
+			border-radius: 0 !important;
+			&:hover {
+				background-color: #FFFFFF;
+				color: #000000;
+			}
+    	}
+    }
+    &__btn--close {
+		position: absolute;
+		right: 60px;
+		top: 20px;
+    }
+}

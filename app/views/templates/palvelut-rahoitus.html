@@ -1,0 +1,87 @@
+@include('../partials/head.html')
+<div class="wrapper">
+    @include('../partials/header.html')
+    <main class="h-100 mb-3 mt-5 mt-md-0">
+         @include('../components/palvelut-banner.html',{"banner1":"", "banner2":"active", "banner3":"", "banner4":""})
+
+        <!-- Begin Description -->
+        <section class="mt-5">
+            <p class="m-text__title text-center">AUTO KUUKAUSIERISSÄ <br> – JOPA ILMAN KÄSIRAHAA!</p>
+            <!-- * -->
+            <div class="container palvelut__description">
+                <p class="m-text__content6 text-center mb-3">Tarjoamme kaikkiin myymiimme autoihin edullisen osamaksupaketin, jolla maksat autosi kuukausierissä. Rahoituksemme on:</p>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 px-2 mt-3">
+                        <div class="palvelut__peruskasko--item py-4 px-3">
+                            <p class="m-text__title4 text-center mb-0">Vaivaton</p>
+                            <p class="m-text__content9 text-center my-2">Rahoituksen myöntäminen onnistuu helposti auton oston yhteydessä.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 px-2 mt-3">
+                        <div class="palvelut__peruskasko--item py-4 px-3">
+                            <p class="m-text__title4 text-center mb-0">Edullinen</p>
+                            <p class="m-text__content9 text-center my-2">Rahoitus on valmiiksi kilpailutettu, joten voimme tarjota parhaan rahoituksen välittömästi.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 px-2 mt-3">
+                        <div class="palvelut__peruskasko--item py-4 px-3">
+                            <p class="m-text__title4 text-center mb-0">Turvallinen</p>
+                            <p class="m-text__content9 text-center my-2">Tasaiset kuukausierät takaavat sen, että ikäviä yllätyksiä ei tule.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 px-2 mt-3">
+                        <div class="palvelut__peruskasko--item py-4 px-3">
+                            <p class="m-text__title4 text-center mb-0">Helppo</p>
+                            <p class="m-text__content9 text-center my-2">Saat auton käyttöösi saman tien jopa ilman käsirahaa.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- * -->
+
+            <!-- * -->
+            <div class="palvelut__description-rahoituslaskuri p-5">
+            	<p class="m-text__title4 text-center mb-4">Rahoituslaskuri</p>
+                <div class="d-flex align-items-center mb-2">
+                	<p class="m-text__content5 mb-0 mr-2 mr-sm-5">Käsiraha (Vähintään 10%)</p>
+                	<input type="text" class="form-control" placeholder="" value="6024">
+                </div>
+                <div class="d-flex align-items-center mb-3">
+                	<p class="m-text__content5 mb-0 mr-2 mr-sm-5">Maksuaika (kk)</p>
+            		<select>
+                        <option value="0">60</option>
+                        <option value="1">2</option>
+                        <option value="2">3</option>
+                        <option value="3">4</option>
+                        <option value="4">5</option>
+                    </select>
+                </div>
+                <div class="d-flex align-items-center m-border__top--orange m-border__bottom--orange py-4">
+                	<p class="m-text__content5 mb-0 mr-2 mr-sm-5">Kuukausierä:</p>
+                	<p class="m-text__content5 mb-0 ml-auto">1082,95 €</p>
+                </div>
+                <p class="m-text__content5 text-center mb-0 my-4">Rahoitus vaatii erillisen luottopäätöksen.</p>
+                <div class="text-center">
+                    <button class="m-btn m-btn-orange2 py-3 px-5">Hae luottopäätös</button>
+                </div>
+                <p class="m-text__content5 text-center mb-0 mt-4 mb-2">Saat alustavan päätöksen heti.</p>
+                <div class="text-center">
+                    <a class="m-text__link1" href="">Näytä rahoituksen tiedot</a>
+                </div>
+            </div>
+            <!-- * -->
+            @include('../components/link-share.html')
+        </section>
+        <!-- End Description -->
+
+        @include('../components/soita-ja-kysy-lisaa.html')
+
+        @include('../components/viimeksi-lisatyt-autot.html')
+
+        @include('../components/toimipisteet-ja-yhteystiedot.html')
+    </main>
+    @include('../partials/footer.html')
+</div>
+@include('../partials/foot.html')

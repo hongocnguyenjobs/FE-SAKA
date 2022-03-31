@@ -1,0 +1,93 @@
+@include('../partials/head.html')
+<div class="wrapper">
+    @include('../partials/header.html')
+    <main class="h-100 mb-3 mt-5 mt-md-0">
+        <!-- Begin Menu -->
+        <ul class="yritys__menu nav justify-content-center py-3">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Tarina</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Talousfaktat</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Manifesti</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Medialle</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Tiedotteet</a>
+            </li>
+        </ul>
+        <!-- End Menu -->
+        <!-- Begin Banner -->
+        <div class="toimipisteet__banner d-flex align-items-center justify-content-center" style="background: url(images/banner.jpg) center center / cover; -webkit-filter: grayscale(100%); filter: grayscale(100%);">
+        </div>
+        <!-- End Banner -->
+
+        <!-- Begin Content Gallery -->
+        <section class="mt-5 container">
+            <div class="row">
+                <div class="col-sm-6 col-lg-4 col-xl-3 px-2 mt-5">
+                    <a href="#" class="index__images-gallery mx-auto" style="background: url(images/index1.jpg) center center / cover"></a>
+                    <div class="pt-3 text-center">
+                        <a href="#" class="m-text__content6 mb-1">Saka logo pdf</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 col-xl-3 px-2 mt-5">
+                    <a href="#" class="index__images-gallery mx-auto" style="background: url(images/index1.jpg) center center / cover"></a>
+                    <div class="pt-3 text-center">
+                        <a href="#" class="m-text__content6 mb-1">Saka logo jpg</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 col-xl-3 px-2 mt-5">
+                    <a href="#" class="index__images-gallery mx-auto" style="background: url(images/index1.jpg) center center / cover"></a>
+                    <div class="pt-3 text-center">
+                        <a href="#" class="m-text__content6 mb-1">Saka logo png</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 col-xl-3 px-2 mt-5">
+                    <a href="#" class="index__images-gallery mx-auto" style="background: #EAEAEA;"></a>
+                    <div class="pt-3 text-center">
+                        <a href="#" class="m-text__content6 mb-1">Saka kuva</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 col-xl-3 px-2 mt-5">
+                    <a href="#" class="index__images-gallery mx-auto" style="background: url(images/index1.jpg) center center / cover"></a>
+                    <div class="pt-3 text-center">
+                        <a href="#" class="m-text__content6 mb-1">Saka kuva</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 col-xl-3 px-2 mt-5">
+                    <a href="#" class="index__images-gallery mx-auto" style="background: url(images/index1.jpg) center center / cover"></a>
+                    <div class="pt-3 text-center">
+                        <a href="#" class="m-text__content6 mb-1">Saka kuva</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 col-xl-3 px-2 mt-5">
+                    <a href="#" class="index__images-gallery mx-auto" style="background: url(images/index1.jpg) center center / cover"></a>
+                    <div class="pt-3 text-center">
+                        <a href="#" class="m-text__content6 mb-1">Saka kuva</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 col-xl-3 px-2 mt-5">
+                    <a href="#" class="index__images-gallery mx-auto" style="background: url(images/index1.jpg) center center / cover"></a>
+                    <div class="pt-3 text-center">
+                        <a href="#" class="m-text__content6 mb-1">Saka kuva</a>
+                    </div>
+                </div>
+            </div>
+            @include('../components/link-share.html')
+        </section>
+        <!-- End Content Gallery -->
+
+        @include('../components/soita-ja-kysy-lisaa.html') 
+
+        @include('../components/viimeksi-lisatyt-autot.html') 
+
+        @include('../components/toimipisteet-ja-yhteystiedot.html')
+    </main>
+    @include('../partials/footer.html')
+</div>
+@include('../partials/foot.html')

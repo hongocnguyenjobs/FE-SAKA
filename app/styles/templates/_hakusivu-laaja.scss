@@ -1,0 +1,47 @@
+.hakusivu-laaja {
+	&__loyda-sinulle-sopiva-auto {
+		background-color: #FFFAF6;
+		.select {
+			background-color: #FFFFFF;
+			border: 2px solid #F68B1F;
+			border-radius: 5px;
+			height: 71px;
+		}
+		.select-styled {
+			font-size: 18px;
+			font-weight: 400;
+			color: #F68B1F;
+			padding-left: 30px;
+			&::after {
+				content: url(../images/ic-select.svg);
+			    top: 23px;
+			    right: 20px;
+			    position: absolute;
+			}
+		}
+		.select-options li:hover {
+			background-color: #FCAF17;
+    		color: #FFFFFF;
+		}
+	}
+}
+
+@media only screen and (max-width: 575px) {
+    .hakusivu-laaja {
+		&__loyda-sinulle-sopiva-auto {
+			.select {
+				border: 1px solid #F68B1F;
+				height: 30px;
+			}
+			.select-styled {
+				font-size: 14px;
+				&::after {
+					content: url(../images/ic-select.svg);
+				    top: 5px;
+				    right: 15px;
+				    position: absolute;
+				}
+			}
+		}
+	}
+}

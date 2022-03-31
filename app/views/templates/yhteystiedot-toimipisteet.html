@@ -1,0 +1,21 @@
+@include('../partials/head.html')
+<div class="wrapper">
+    @include('../partials/header.html')
+    <main class="h-100 mb-3 mt-5 mt-md-0">
+        <!-- Begin Banner -->
+            <div class="toimipisteet__banner d-flex align-items-center justify-content-center" style="background: url(images/banner.jpg) center center / cover; -webkit-filter: grayscale(100%); filter: grayscale(100%);">
+                <p class="m-text__banner">Toimipisteet</p>
+            </div>
+        <!-- End Banner -->
+
+        @include('../components/content-gallery.html')
+
+        @include('../components/soita-ja-kysy-lisaa.html')
+
+        @include('../components/viimeksi-lisatyt-autot.html')
+
+        @include('../components/toimipisteet-ja-yhteystiedot.html')
+    </main>
+    @include('../partials/footer.html')
+</div>
+@include('../partials/foot.html')

@@ -1,0 +1,54 @@
+@include('../partials/head.html')
+<div class="wrapper">
+    @include('../partials/header.html')
+    <main class="h-100 mb-3 mt-5 mt-md-0">
+        <!-- Begin Menu -->
+        <ul class="yritys__menu nav justify-content-center py-3">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Tarina</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Talousfaktat</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Manifesti</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Medialle</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Tiedotteet</a>
+            </li>
+        </ul>
+        <!-- End Menu -->
+
+        <!-- Begin Banner -->
+        <div class="toimipisteet__banner d-flex align-items-center justify-content-center" style="background: url(images/banner.jpg) center center / cover; -webkit-filter: grayscale(100%); filter: grayscale(100%);">
+        </div>
+        <!-- End Banner -->
+
+        <!-- Begin Description -->
+        <section>
+            <p class="m-text__title text-center mt-5">SAKA – PALVELEVA AUTOKAUPPIAASI</p>
+            <div class="container yritys__description">
+                <p class="m-text__content5">
+                   Tarjoamme asiakkaillemme turvallisia, luotettavia ja hyväkuntoisia käytettyjä henkilöautoja sekä niiden ostamiseen ja huoltoon liittyviä palveluita autoliikkeissä ja verkkokaupassa. 
+                    <br><br>
+                    Me SAKAlaiset rakastamme autoja ja rakastamme autokauppaa. Teemme kaikkemme, että auton ostaminen olisi sinulle helppoa ja vaivatonta, ja auton omistaminen huoletonta.
+                    <br><br>
+                    SAKA kasvaa kovaa vauhtia, ja palvelemme sinua asiantuntevasti 13 liikkeessämme ympäri Suomea. Ja jos SAKA ei vielä ole sinun naapurissasi, voit tilata haluamasi auton koeajoon ilmaisella kotiinkuljetuksellamme. Kauan eläköön parempi autokauppa!
+                </p>
+            </div>
+            @include('../components/link-share.html')
+        </section>
+        <!-- End Description -->
+
+        @include('../components/soita-ja-kysy-lisaa.html') 
+
+        @include('../components/viimeksi-lisatyt-autot.html') 
+
+        @include('../components/toimipisteet-ja-yhteystiedot.html')
+    </main>
+    @include('../partials/footer.html')
+</div>
+@include('../partials/foot.html')

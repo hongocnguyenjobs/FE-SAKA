@@ -1,0 +1,16 @@
+.yritys {
+	&__menu {
+		a {
+			font-size: 18px;
+			color: #F68B1F;
+			&.active {
+				font-size: 18px;
+				color: gray;
+			}
+		}
+	}
+	&__description {
+		padding: 0 18%;
+		margin-top: 40px;
+	}
+}

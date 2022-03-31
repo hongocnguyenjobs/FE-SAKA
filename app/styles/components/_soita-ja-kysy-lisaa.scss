@@ -1,0 +1,13 @@
+.soita-ja-kysy-lisaa__owl-carousel {
+	.owl-dots {
+        position: absolute;
+        width: 100%;
+        bottom: -40px;
+        .owl-dot span {
+            background: #000000;
+        }
+        .owl-dot.active span {
+            background: #FFD400;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.banner {
+	&__style1 {
+		height: 350px;
+		&--item {
+			height: 250px;
+			width: 430px;
+			background-color: #FCAF17;
+		}
+	}
+}
+
+@media only screen and (max-width: 450px) {
+    .banner {
+		&__style1 {
+			&--item {
+				height: 250px;
+				width: 375px;
+				background-color: #FCAF17;
+			}
+		}
+	}
+}

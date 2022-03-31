@@ -1,0 +1,66 @@
+@include('../partials/head.html')
+<div class="wrapper">
+    @include('../partials/header.html')
+    <main class="h-100 mb-3 mt-5 mt-md-0">
+        <!-- Begin Menu -->
+        <ul class="yritys__menu nav justify-content-center py-3">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Tarina</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Talousfaktat</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Manifesti</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Medialle</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Tiedotteet</a>
+            </li>
+        </ul>
+        <!-- End Menu -->
+
+        <!-- Begin Banner -->
+        <div class="toimipisteet__banner d-flex align-items-center justify-content-center" style="background: url(images/banner.jpg) center center / cover; -webkit-filter: grayscale(100%); filter: grayscale(100%);">
+        </div>
+        <!-- End Banner -->
+
+        <!-- Begin Description -->
+        <section>
+            <p class="m-text__title text-center mt-5">VALLANKUMOUS ON ALKANUT!</p>
+            <div class="container yritys__description">
+                <p class="m-text__content5">
+                    Me suomalaiset olemme joutuneet kärsimään jo aivan liian kauan huonosta autokaupasta. Käytettyjen autojen kauppiaista, jotka pakoilevat kysymyksiä kahvihuoneessa. Jotka arvioivat asiakkaita kenkien, ensikertalaisuuden tai sukupuolen perusteella. Jotka lupaavat yhtä ja tekevät toista – jos edes tekevät mitään – eivätkä itsekään oikein tiedä, mitä ylipäätään ovat myymässä.
+                    <br><br>
+                    Me SAKAlaiset rakastamme autoja ja rakastamme autokauppaa. Siksi mittamme on tullut täyteen! On aika tehdä autokaupan vallankumous. On aika tehdä asiat aivan eri tavalla kuin ennen. On aika kääntää kokemus käytettyjen autojen kaupasta päälaelleen.
+                    <br><br>
+                    Me SAKAlla uudistamme autokauppaa intohimolla, asiantuntemuksella ja nöyrällä palveluasenteella. Me teemme käytettyjen autojen kauppiaasta luottokaverisi, joka ajaa etuasi ja löytää sinulle aina parhaan mahdollisen vaihtoehdon. Me teemme kaikkemme, että auton ostaminen olisi sinulle helppoa ja vaivatonta, ja auton omistaminen huoletonta.
+                    <br><br>
+                    Lupaamme puolustaa <br>
+                    • kaikkien oikeutta ajaa paremmalla autolla. <br>
+                    • kaikkien oikeutta saada parempaa palvelua autokaupassa. <br>
+                    • kaikkien oikeutta ostaa auto oikealla, edullisella hinnalla. <br>
+                    • kaikkien oikeutta luotettavaan vaihtoautokauppaan ilman pelkoa huijatuksi
+                      joutumisesta.
+                    <br><br>
+                    Autokaupan vallankumous on jo alkanut. Mukaan pääset 13 liikkeessämme ympäri Suomen ja osoitteessa saka.fi.
+                    <br><br>
+                    Eläköön parempi autokauppa! <br>
+                    SAKA
+                </p>
+            </div>
+            @include('../components/link-share.html')
+        </section>
+        <!-- End Description -->
+
+        @include('../components/soita-ja-kysy-lisaa.html') 
+
+        @include('../components/viimeksi-lisatyt-autot.html') 
+
+        @include('../components/toimipisteet-ja-yhteystiedot.html')
+    </main>
+    @include('../partials/footer.html')
+</div>
+@include('../partials/foot.html')

@@ -1,0 +1,53 @@
+@include('../partials/head.html')
+<div class="wrapper">
+    @include('../partials/header.html')
+    <main class="h-100 mb-3 mt-5 mt-md-0">
+        <!-- Begin Menu -->
+        <ul class="yritys__menu nav justify-content-center py-3">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Tarina</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Talousfaktat</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Manifesti</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Medialle</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Tiedotteet</a>
+            </li>
+        </ul>
+        <!-- End Menu -->
+        <!-- Begin Banner -->
+        <div class="toimipisteet__banner d-flex align-items-center justify-content-center" style="background: url(images/banner.jpg) center center / cover; -webkit-filter: grayscale(100%); filter: grayscale(100%);">
+        </div>
+        <!-- End Banner -->
+
+        <!-- Begin Description -->
+        <section>
+            <p class="m-text__title text-center mt-5">Lorem ipsum dolor site amet</p>
+            <div class="container yritys__description">
+                <p class="m-text__content5">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ornare eros id eros iaculis elementum. Quisque ac pretium leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent gravida tellus at arcu gravida bibendum eget vel magna. Sed maximus, eros sed pharetra ultrices, nunc nunc malesuada nunc, at interdum velit massa id metus. Fusce vel venenatis erat, sit amet sagittis dolor. Praesent dapibus nisi vel metus malesuada hendrerit.
+                    <br><br>
+                    Cras et purus quis neque vehicula sagittis. Aliquam erat volutpat. Praesent vitae neque vitae quam suscipit finibus et vitae urna. Sed sit amet felis diam. Ut accumsan nulla vitae orci mattis facilisis. Cras efficitur quam eu auctor rhoncus. Morbi ac neque consectetur, fermentum ligula eu, malesuada quam. Morbi elementum, ex sit amet sollicitudin suscipit, arcu mi accumsan mi, non blandit risus risus quis libero. Nulla at leo lorem. Vestibulum facilisis ex at malesuada maximus.
+                    <br><br>
+                    Vivamus pharetra volutpat semper. Ut rutrum luctus leo non cursus. Sed et est fringilla, sagittis sem vitae, aliquam magna. Curabitur mollis lorem velit, vitae porttitor arcu ultricies et. Nam nunc felis, lobortis non sollicitudin ac, consequat ut urna. Etiam blandit bibendum nisl, ac suscipit purus pulvinar at. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer viverra purus id dui tincidunt suscipit. Maecenas elementum orci enim, sed lacinia massa luctus ac. Sed eget turpis finibus, ultricies turpis quis, cursus felis. Cras tempor metus massa, et consequat lacus interdum sed. Pellentesque condimentum ex id nisl dignissim mollis. Nullam non diam ex.
+                </p>
+            </div>
+            @include('../components/link-share.html')
+        </section>
+        <!-- End Description -->
+
+        @include('../components/soita-ja-kysy-lisaa.html') 
+
+        @include('../components/viimeksi-lisatyt-autot.html') 
+
+        @include('../components/toimipisteet-ja-yhteystiedot.html')
+    </main>
+    @include('../partials/footer.html')
+</div>
+@include('../partials/foot.html')

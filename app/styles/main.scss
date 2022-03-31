@@ -1,0 +1,28 @@
+/* Import bases */
+@import 'bases/font.scss';
+@import 'bases/variable.scss';
+@import 'bases/function.scss';
+@import 'bases/mixin.scss';
+@import 'bases/reset.scss';
+@import 'bases/override.scss';
+@import 'bases/common.scss';
+
+/* Import components */
+@import 'components/custom-select.scss';
+@import 'components/text.scss';
+@import 'components/soita-ja-kysy-lisaa.scss';
+@import 'components/custom-checkbox.scss';
+@import 'components/banner.scss';
+
+/* Import partials */
+@import 'partials/header.scss';
+@import 'partials/footer.scss';
+
+/* Import templates */
+@import 'templates/index.scss';
+@import 'templates/toimipisteet.scss';
+@import 'templates/yritys.scss';
+@import 'templates/palvelut.scss';
+@import 'templates/auton-esittely.scss';
+@import 'templates/hakusivu-laaja.scss';
+@import 'templates/landing-page.scss';

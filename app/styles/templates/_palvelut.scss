@@ -1,0 +1,78 @@
+.palvelut {
+	&__menu-item {
+		width: 280px;
+		height: 179px;
+		background-color: #FCAF17;
+		&.active {
+			background-color: #F68B1F;
+		}
+	}
+	&__description {
+		padding: 0 15%;
+		margin-top: 40px;
+		&--etusivu {
+			padding: 0 11%;
+			margin-top: 40px;
+		}
+	}
+	&__description-rahoituslaskuri {
+		margin: 40px auto 0 auto;
+		max-width: 580px;
+		// height: 577px;
+		background-color: #FFFAF5;
+		input[type="text"],
+		.select {
+			width: 45%;
+			height: 50px;
+			border: 2px solid #FCAF17;
+			border-radius: 5px;
+			margin-left: auto;
+			background-color: #FFFFFF;
+		}
+		.select-styled {
+			&:after {
+		        content: url(../images/ic-select-2.svg);
+		        top: 10px;
+		        right: 13px;
+		        position: absolute;
+		    }
+		}
+		.select-options {
+		    border: 1px solid rgba(0,0,0,.15);
+			border-radius: .25rem;
+			& li:hover {
+				background-color: #FCAF17;
+			    color: #FFFFFF;
+			}
+		}
+	}
+	&__peruskasko-sisaltaa--item {
+		width: 280px;
+		height: 158px;
+		background: #F5F5F5;
+		display: flex;
+		align-items: center;
+	}
+	&__peruskasko--item {
+		height: 100%;
+		background: #F5F5F5;
+	}
+	&__peruskasko--number {
+		position: absolute;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    font-size: 30px;
+	    color: #F68B1F;
+	    background-color: #FFFFFF;
+	    border-radius: 50%;
+	    border: 7px solid #F5F5F5;
+	    width: 70px;
+	    height: 70px;
+	    top: -17%;
+	    left: 0;
+	    right: 0;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+}
